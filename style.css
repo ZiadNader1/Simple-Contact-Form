@@ -38,7 +38,7 @@ body {
 }
 label {
   display: block;
-  margin-bottom: 5px; /* اختياري - بس بيدي مسافة لطيفة بين الـ label والـ input */
+  margin-bottom: 5px; 
 }
 .input-wrapper {
   display: flex;
