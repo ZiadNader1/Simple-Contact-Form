@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"> <!-- ensures compatibility with older browsers -->
+  <meta name="description" content="A simple contact form for users to reach out with their queries, feedback, or support requests.">
+  <meta name="keywords" content="contact
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Contact us | Contact form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body style="background-color: rgb(198, 240, 226);"> 
+  <div class="container">
+    <div class="formbox">
+      <div class="header">
+        <h1>Contact Us</h1>
+        <p>We'd love to hear from you!</p>
+      </div>
+      <div class="action">
+        <form action="#" method="post">
+          <div class="name-group">
+  <div class="input-wrapper">
+    <label for="Fname" id="fnamelabel">First Name *</label>
+    <input type="text" id="Fname" name="Fname" placeholder="Enter your first name" required>
+  </div>
+
+  <div class="input-wrapper">
+    <label for="Lname" id="lnamelabel">Last Name *</label>
+    <input type="text" id="Lname" name="Lname" placeholder="Enter your last name" required>
+  </div>
+</div>
+
+          <div class="email-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" placeholder="Enter Your email" required>
+          </div>
+          <div class="query-group">
+            <label for="Querytype">query type *</label>
+            <select id="querytype" name="querytype">
+              <option value="general">General Inquiry</option>
+              <option value="support">Support</option>
+              <option value="feedback">Feedback</option>
+              <option value="other">Other</option>
+            </select>
+            <div class="message-group">
+            <label for="message">Message *</label>
+            <textarea id="message" name="message" rows="4" placeholder="Type your message here" required></textarea>
+            </div>
+        
+          </div>
+          <div class="checkbox-group">
+            <label for="subscribe">
+              <input type="checkbox" id="subscribe" name="subscribe">
+              Subscribe to our newsletter
+            </label>
+          </div>
+          <button type="submit" class="button">Send Message</button>
+        </form>
+
+      </div>
+    </div>
+  </div>
+
+ 
+</body>
+</html>
